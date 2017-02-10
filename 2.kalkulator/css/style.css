@@ -1,0 +1,14 @@
+div {
+	width:50%;
+}
+
+div input {
+	width:100%;
+}
+
+button {
+	width: 25%;
+	height: 85px;
+	margin: 5px;
+}
+
