@@ -6,14 +6,14 @@
 </head>
 <body>
 	<form action="">
-		<label for="wplata">Wpłata w PLN</label><input type="number" id="wplataPLN" value="0" min="0"><br />
+		<label for="wplata">Wpłata w PLN</label><input type="number" id="wplataPLN" value="1000" min="0"><br />
 		<select name="" id="okresKapitalizacji">
 			<option value="12">Miesięcznie</option>
 			<option value="4">Kwartalnie</option>
-			<option value="1">Rocznie</option>
+			<option value="1" selected="selected">Rocznie</option>
 		</select><br />
 		<label for="ilosclat">Ilość lat</label><input type="number" id="iloscLat" value="1" min="1"><br />
-		<label for="oprocentowanie">Oprocentowanie</label><input type="number" id="oprocentowanie" value="0" min="0"><br />
+		<label for="oprocentowanie">Oprocentowanie</label><input type="number" id="oprocentowanie" value="10" min="0"><br />
 		<label for="podatek"></label>Uwzględnij podatek Belki 19%<input type="checkbox" id="podatek"><br />
 		<button type="submit" id="przycisk">Oblicz</button>
 	</form>
